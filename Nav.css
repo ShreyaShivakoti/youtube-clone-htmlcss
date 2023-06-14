@@ -1,0 +1,235 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    font-family: "Roboto", Arial, sans-serif; 
+}
+
+.youtubeNav{
+    display: flex;
+    padding: 8px;
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+    justify-content: space-between;
+    margin: auto;
+    position: fixed;
+    margin-top: -63px;
+    width: 98%;
+    z-index: 1000;
+}
+
+.dashIcon{
+    cursor: pointer;
+    margin-right: 3px;
+    font-weight: 100;
+}
+
+.navLeft{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navBrand{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+
+.brandIcon{
+    color: red;
+    margin-right: 3px;
+    font-size: 23px;
+}
+
+.brandText{
+    font-weight: bolder;
+}
+
+.navCentre{
+    display: flex;
+    align-items: center;
+}
+
+.search{
+    display: flex;
+    align-items: center;
+    border: 0.5px solid #525251;
+    padding: 5px;
+    width: 500px;
+    justify-content:space-between;
+    border-radius: 30px;
+    font-size: 12px;
+     
+}
+
+.searchInput{
+    border: none;
+    outline: none;
+    font-weight: 700;
+    color: white;
+    height: 100%;
+    width: 100%;
+    padding-left: 8px;
+    text-align: start;
+}
+
+
+
+.searchIcon{
+    background: rgb(51, 50, 50);
+    margin: -5px;
+    padding: 8.2px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.micIcon{
+    background-color: #2e2e2d;
+    margin-left: 10px;
+    padding: 5px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.navRight{
+    display: flex;
+    align-items: center;
+    width: 120px;
+    justify-content: space-between;
+}
+
+.rightIcon,.menuIcon{
+    cursor: pointer;
+    font-weight: light;
+    transition: all 0.3s ease-in-out;
+}
+
+.account{
+    border: 1px solid white;
+    padding: 8px;
+    border-radius: 50%;
+    font-size: 20px;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    cursor: pointer;
+    background-color: #3186d1;
+}
+
+
+/* Vertical */
+
+.navVertical{
+    color: white;
+    height: 700px;
+    width: 230px;
+    position: fixed;
+    overflow-y: scroll; 
+    overflow-x: hidden; 
+    z-index: 99 
+}
+
+.navLink{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    padding: 4px 20px;
+    margin: 8px;
+    border-radius: 10px;
+}
+
+
+
+
+
+ .navIcon,
+.verticalLink{
+    background: transparent;
+}
+ 
+
+.verticalLink{
+    text-decoration: none;
+    color: white;
+    margin-left: 15px;
+    padding: 4px;
+    font-size: 13px;
+}
+
+.navIcon{
+    font-size: 18px;
+    text-align: left;
+}
+
+.navVertical1,
+.navVertical2{
+    border-bottom: 1px solid rgb(59 58 58);;
+}
+
+.subLink{
+    text-decoration: none;
+    color: white;
+    font-size: 13px;
+}
+
+.basir{
+    margin-left: 15px;
+}
+
+.sub2Link,
+.sub3Link{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 182px;
+    margin-left: 18px;
+}
+
+.subscriptionLogo{
+    width: 30px;
+}
+
+.sub2Link a{
+    font-size: 12px;
+    
+}
+
+.sub2Link > .subscriptionNew{
+    margin-left: 60px;
+}
+.sub3Link > .subscriptionNew{
+    margin-left: 66px;
+}
+
+
+
+.navVertical::-webkit-scrollbar{
+    width: 10px;
+    color: white;
+}
+
+.navVertical::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    
+}
+
+.navVertical::-webkit-scrollbar-thumb {
+    background-color: rgb(86, 85, 85);
+    border-radius: 10px;
+    display: none;
+}
+
+.navVertical:hover::-webkit-scrollbar-thumb{
+    display: inline-block;
+    
+}
+
